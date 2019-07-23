@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <head>
     <title>Rachel's Portfolio</title>
-    <link rel="stylesheet" href="myStyles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="turtleicon.png">
-    <script src="myScript.js"></script>
+    <link rel="stylesheet" href="myPortStyles.css">
+    <!-- ADD AN ICON LATER <link rel="shortcut icon" type="image/x-icon" href="turtleicon.png"> -->
+    <script src="myPortScript.js"></script>
 </head>
-<body>
+<body onload="Load()">
     <nav class="nav-bar">
         <a href="https://www.google.com/doodles/30th-anniversary-of-pac-man" target="_blank">Google Pacman Game</a>
         <a href="https://su19-codeu-32-6493.appspot.com/" target="_blank">My puzzle website</a>
@@ -15,26 +15,18 @@
     </div>
     <div id="bio">
         <p><h2><em>About me:</em></h2></p>
-        <p>Hi! I'm a rising junior studying computer science at Arizona State University!</p>
+        <p>Hi! I'm a rising junior studying computer science at Arizona State University! Over the summer I have been teaching as a TA for Girls Who Code.</p>
     </div>
-    <div id="fun-facts">
-        <p><h2><em>Fun facts:</em></h2></p>
+    <div id="interests">
+        <p><h2><em>Interests:</em></h2></p>
         <ul>
-            <li> I have 2 brothers!</li>
+            <li> Programming! I have used Java, HTML, CSS, JavaScript, Python, and C lately</li>
             <li> I like art, especially drawing</li>
-            <li> I have played several sports, but my favorite are gymnastics, volleyball, and track and field.</li>
-            <li> I have been eating an apple a day for the past month.</li>
+            <li> Increasing the diversity in STEM</li>
+            <li> Learning Japanese and studying language generally</li>
             <li> This is the website I am currently working on:
                 <a href="https://su19-codeu-32-6493.appspot.com/" target="_blank">Virtual Escape</a></li>
         </ul>
-    </div>
-    <div id="time" onclick="displayDate()">
-        <p>What time is it?</p>
-    </div>
-    <div id="pictures" onclick="changePicture()">
-        <p><h3><em>I like turtles!</em></h2></p>
-        <img class="image" src="http://blogs.discovermagazine.com/d-brief/files/2017/11/shutterstock_6566595580.jpg"
-        alt="A picture of a cool turtle" ></img>
     </div>
 </body>
 </html>
