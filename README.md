@@ -1,5 +1,3 @@
 # Rachelware.github.io
-This is my portfolio Website: 
+This is my website with a basic Unity game running with WebGl: 
 https://rachelware.github.io/
-For the Unity game: 
-https://rachelware.github.io/index.html
